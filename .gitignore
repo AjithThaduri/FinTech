@@ -1,0 +1,23 @@
+# OS files
+.DS_Store
+
+# Backend
+Backend/venv/
+Backend/__pycache__/
+Backend/*.pyc
+Backend/*.db
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.vercel/
+frontend/*.tsbuildinfo
+
+# Environmental variables
+.env
+.env.local
+Backend/.env
+frontend/.env
+frontend/.env.local
